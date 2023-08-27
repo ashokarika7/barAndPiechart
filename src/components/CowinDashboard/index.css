@@ -1,0 +1,55 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+.co-win-container {
+  background-color: #161625;
+  min-height: 100vh;
+  padding-left: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img-logo-container {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+
+.img-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 4px;
+}
+
+.logo-title {
+  color: #2cc6c6;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.co-win-title {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-img {
+  width: 60%;
+}
+
+.failre-title {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
